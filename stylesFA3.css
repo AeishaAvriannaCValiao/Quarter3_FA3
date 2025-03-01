@@ -1,0 +1,70 @@
+html, body {
+    height: 100%; /* Ensure the html and body take up the full height of the page */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;  /* Font set to Times New Roman */
+    background-image: url('gamenight.jpg');  /* Background image set to gamenight.jpg */
+    background-size: cover;  /* Ensure the background image covers the full page */
+    background-position: center center;  /* Center the background image */
+    color: #ADD8E6;  /* Light blue text color */
+    display: flex;
+    flex-direction: column;  /* Make sure content stacks vertically */
+    justify-content: center;  /* Center the content vertically */
+    align-items: center;  /* Center the content horizontally */
+    height: 100vh;  /* Full height of the viewport */
+    text-align: center;  /* Center text globally */
+}
+
+h1 {
+    color: #ADD8E6;  /* Light blue for the header */
+    margin-bottom: 20px;  /* Add some spacing below the header */
+}
+
+.container {
+    background-color: rgba(173, 216, 230, 0.8);  /* Light blue with transparency for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;  /* Ensure the container is responsive */
+    display: flex;
+    flex-direction: column;  /* Align elements vertically inside the container */
+    align-items: center;  /* Center content inside the container */
+    justify-content: center;  /* Ensure the content is centered */
+}
+
+.introduction {
+    font-size: 18px;
+    color: #003366;  /* Dark blue for the introduction */
+    margin-bottom: 20px;
+}
+
+.story {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffebcd;
+    border-left: 5px solid #003366;  /* Dark blue border */
+    color: #003366;  /* Dark blue text color for the output text */
+}
+
+.highlight {
+    font-weight: bold;
+    color: #003366;  /* Dark blue for highlighted text */
+}
+
+button {
+    background-color: #003366;  /* Dark blue for the button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #00509e;  /* Slightly lighter dark blue for hover effect */
+}
